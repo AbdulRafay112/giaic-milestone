@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('/images/background.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-container h1{
+    color: #2cf481;
+    margin-bottom: 10px;
+}
+.form-container{
+    /* background-color: #773a77; */
+    background-color: rgba(119, 58, 119, 0.8);
+    border-radius: 30px; 
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 23px;
+    margin: auto;
+    
+}
+.form-container h2{
+    color: #ee14b4;
+    font-size: 30px;
+}
+label{
+    color: white;
+    font-size: 24px;
+}
+.form-container h3{
+    color: red;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+input{
+    padding: 13px;
+    width: 200px;
+}
+#textAreasContainer{
+    width: 500px;
+}
+#image{
+    color: red;
+}
+.btn{
+    margin: 4px 0px;
+    cursor: pointer;
+    padding: 3px 5px;
+}
+.btn:hover{
+    background-color: #ee14b4;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.templates{
+    display:none;
+}
+.form-container span{
+    color: pink;
+    font-size: 20px;
+    border:1px solid pink;
+    border-radius: 25px;
+}
+.finalbutton{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 0px;
+    /* background-color: pink; */
+    color: purple;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+@media (max-width:780px){
+    .form-container{
+        width: 300px;
+    }
+    .textarea{
+        width: 240px
+    }
+    .form-container h2{
+        font-size: 25px;
+    }
+}
+
+/* css for resume preview-1; */
+.image-name{
+    display: flex;
+    color: black;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    gap: 451px;
+}
+.image-name p {
+    font-size: 50px;
+    width: 100px;
+    margin-left: 81px;
+}
+.image-name img{
+    width: 100px;
+    height: 111px;
+    border-radius: 57px;
+}
+ section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 371px;
+    width: 1200px;
+}
+.contact{
+    width: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+}
+.contact h2{
+    font-size: 30px;
+
+}
+.contact p{
+    font-size: 23px;
+}
+.horizontal-line {
+    border-bottom: 2px solid black; 
+    width: 60%; 
+    margin: 10px auto; 
+}
+.nav{
+    width:1400px;
+}
+.verticalLine{
+    border-left: 2px solid black;
+    height: 393px;
+    margin: 20px auto; 
+}
+.other{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    height: 383px;
+    padding: 0px 30px;
+    margin-top: 166px;
+}
+.other h2{
+    font-size: 30px;
+}
+.other span{
+    font-size: 23px;
+}
+.margin{
+    margin-top: 26px;
+    width: 100%;
+}
+.preview-container span{
+    width:700px;
+}
+body{
+    display: block;
+}
+
+
+/* --------------------------------------------------- */
+
+/* css for template-2  */
+.left img{
+    width: 100px;
+    height: 111px;
+    border-radius: 57px;
+    margin-bottom: 12px;
+}
+.section{
+    display: flex;
+    gap: 13px; 
+    margin: 10px 8px; 
+}
+.left{
+    background-color: #49495a;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding: 8px 12px;
+}
+.left p{
+    font-size: 20px;
+}
+.left h2{
+    font-size: 26px;
+}
+.right{
+    padding: 20px;
+}
+.name{
+    font-size: 34px;
+    margin:10px;
+    font-weight: bolder;
+    color:grey;
+}
+.right span{
+    font-size: 20px;
+}
+.right h2{
+    font-size: 26px;
+}
+
